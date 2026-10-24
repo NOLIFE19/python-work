@@ -1,4 +1,4 @@
-# შექმენით ფუნქცია სახელად analyze_text, რომელიც იღებს ტექსტს და აანალიზებს მის სტრუქტურას.
+
 
 def analyze_text(text: str,target_word: str):
     
@@ -23,8 +23,5 @@ print(analyze_text("I love coding because coding is interesting", "coding"))
 
 print(analyze_text("Apple banana apple orange apple", "apple"))
 
-print(analyze_text("Today is a beautiful day and tomorrow is beautiful", "beautiful"))
-
-print(analyze_text("Java Python C++ Python JavaScript", "java"))
 
 
